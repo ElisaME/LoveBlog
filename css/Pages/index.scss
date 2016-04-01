@@ -3,14 +3,22 @@
 	height: 50px;
 	z-index: -1;
 }
-#slide{
-	position: relative;
+#myCarousel{
+	/*position: relative;*/
 	margin-top: -50px;
+	border-left: 20px solid #fff;
+	border-right: 20px solid #fff;
 	img{
+		width: 100%;
+	}
+	/*width: 100%;
+		border-left: 20px solid #fff;
+		border-right: 20px solid #fff;
+	.img{
 		width: 100%;
 		border-left: 20px solid #fff;
 		border-right: 20px solid #fff;
-	}
+	}*/
 }
 #headlines{
 	h2{

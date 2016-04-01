@@ -78,13 +78,21 @@ header {
   height: 50px;
   z-index: -1; }
 
-#slide {
-  position: relative;
-  margin-top: -50px; }
-  #slide img {
-    width: 100%;
-    border-left: 20px solid #fff;
-    border-right: 20px solid #fff; }
+#myCarousel {
+  /*position: relative;*/
+  margin-top: -50px;
+  border-left: 20px solid #fff;
+  border-right: 20px solid #fff;
+  /*width: 100%;
+  	border-left: 20px solid #fff;
+  	border-right: 20px solid #fff;
+  .img{
+  	width: 100%;
+  	border-left: 20px solid #fff;
+  	border-right: 20px solid #fff;
+  }*/ }
+  #myCarousel img {
+    width: 100%; }
 
 #headlines h2 {
   color: #E8663C !important;
