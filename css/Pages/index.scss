@@ -1,0 +1,48 @@
+#barra-naranja{
+	background-color: $rosa;
+	height: 50px;
+	z-index: -1;
+}
+#slide{
+	position: relative;
+	margin-top: -50px;
+	img{
+		width: 100%;
+		border-left: 20px solid #fff;
+		border-right: 20px solid #fff;
+	}
+}
+#headlines{
+	h2{
+		color: $naranja !important;
+		font-family: Bebas !important;
+		font-size: 20px !important;
+	}
+	img{
+		float:left;
+		margin-top: 5%;
+		padding-right: 10px;
+	}
+}
+.subtitulo{
+	@include subtitulo;
+}
+#galeria-blog{
+	font-family: Bebas;
+	margin-bottom: 2%;
+	img{
+		width: 100%;
+	}
+	.blog-post{
+		border:1px solid $gris;
+		border-top: none;
+		padding: 5%;
+		margin-bottom: 4%;
+		.title{
+			color: $naranja;
+		}
+		.fecha{
+			color: $gris;
+		}
+	}
+}

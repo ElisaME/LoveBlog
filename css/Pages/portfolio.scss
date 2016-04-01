@@ -1,0 +1,43 @@
+#titulo{
+	@include barra (20px solid #fff,20px solid #fff);
+}
+.categorias{
+	font-family: Bebas;
+	li{
+		text-decoration: none;
+		color: $gris;
+		display: inline-block;
+		padding: 2%;
+		a{
+			text-decoration: none;
+			color: $gris !important;
+		}
+		&:hover{
+			background-color: $naranja;
+			color: white !important;
+			padding: 1% 2%;
+		}
+	}
+	span{
+		color: black;
+	}
+}
+#galeria{
+	img{
+		width:100%;
+		border:1px solid $gris;
+		padding: 1%;
+	}
+	.foto-desc{
+		font-family: Bebas;
+		border:1px solid $gris;
+		padding: 2%;
+		margin-bottom: 20px;
+		.title{
+			color: $gris
+		}
+		.fecha{
+			color:$naranja;
+		}
+	}
+}

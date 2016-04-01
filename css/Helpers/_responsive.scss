@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px){
+	.photogallery{
+		text-align: center;
+		img{
+		width:60px !important;
+		}
+	}
+	#headlines{
+		img{
+			margin-top: 0 !important;
+		}
+		button{
+			margin-left: 40%;
+		}
+	}
+	#entradas{
+		.tipo-post {
+	    top: 180px !important;
+	    left: 0 !important;
+		}
+		.info-post{
+			position: absolute;
+			top: 100px;
+		}
+		.paginas{
+			text-align: center;
+		}
+	}
+	#titulo{
+		@include barra (5px solid #fff !important , 5px solid #fff !important);
+	}
+}

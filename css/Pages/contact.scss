@@ -1,0 +1,29 @@
+#titulo{
+	@include barra (20px solid #fff,20px solid #fff);
+}
+#contacto{
+	margin-bottom: 2%;
+	.mapa{
+		margin: 2% auto;
+	}
+	.direccion{
+		color: $naranja;
+	}
+	textarea{
+		font-family: Bebas !important;
+		border-color: $naranja !important;
+		color: $naranja !important;
+		margin-bottom: 2% !important;
+		border-radius: 0 !important;
+		width: 80% !important;
+	}
+	.message{
+		width: 100% !important;
+	}
+}
+.photogallery>img{
+	display: inline-block;
+	width: 50px;
+	border:1px solid $naranja;
+	margin: 2%;
+}

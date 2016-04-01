@@ -1,0 +1,309 @@
+header {
+  font-family: Bebas !important; }
+  header h1 {
+    font-family: Bebas !important;
+    color: #E8663C; }
+    header h1 span {
+      color: #F4B19F; }
+
+.navbar-default {
+  background-color: #ffffff !important; }
+  .navbar-default .navbar-nav {
+    padding-top: 20px; }
+    .navbar-default .navbar-nav li > a {
+      color: #CCCCCC !important; }
+      .navbar-default .navbar-nav li > a:hover {
+        color: #E8663C !important; }
+    .navbar-default .navbar-nav .active > a {
+      color: #E8663C !important;
+      background-color: transparent !important; }
+
+#footer {
+  background-color: #F4B19F; }
+  #footer .container {
+    background-color: #E8663C;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+    /*20px solid #fff*/ }
+  #footer h2 {
+    font-family: Bebas;
+    color: white; }
+  #footer .container {
+    padding-bottom: 2%; }
+  #footer p {
+    family-font: HelveticaNeue;
+    color: #CCCCCC; }
+
+@media screen and (max-width: 768px) {
+  .photogallery {
+    text-align: center; }
+    .photogallery img {
+      width: 60px !important; }
+
+  #headlines img {
+    margin-top: 0 !important; }
+  #headlines button {
+    margin-left: 40%; }
+
+  #entradas .tipo-post {
+    top: 180px !important;
+    left: 0 !important; }
+  #entradas .info-post {
+    position: absolute;
+    top: 100px; }
+  #entradas .paginas {
+    text-align: center; }
+
+  #titulo {
+    background-color: #F4B19F; }
+    #titulo .container {
+      background-color: #E8663C;
+      border-left: 5px solid #fff !important;
+      border-right: 5px solid #fff !important;
+      /*20px solid #fff*/ }
+    #titulo h2 {
+      font-family: Bebas;
+      color: white; } }
+.btn-naranja {
+  background-color: #E8663C;
+  font-family: Bebas;
+  padding: 2% 4%;
+  color: white;
+  border: none; }
+  .btn-naranja:hover {
+    color: #F4B19F; }
+
+#barra-naranja {
+  background-color: #F4B19F;
+  height: 50px;
+  z-index: -1; }
+
+#slide {
+  position: relative;
+  margin-top: -50px; }
+  #slide img {
+    width: 100%;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff; }
+
+#headlines h2 {
+  color: #E8663C !important;
+  font-family: Bebas !important;
+  font-size: 20px !important; }
+#headlines img {
+  float: left;
+  margin-top: 5%;
+  padding-right: 10px; }
+
+.subtitulo {
+  margin: 2% 0; }
+  .subtitulo .bg-separador {
+    background-image: url("../images/post_border_bg.png");
+    height: 30px;
+    margin: 2%; }
+  .subtitulo span {
+    background-color: white;
+    font-family: Bebas;
+    color: #E8663C;
+    padding: 2px 10px 13px 4px; }
+
+#galeria-blog {
+  font-family: Bebas;
+  margin-bottom: 2%; }
+  #galeria-blog img {
+    width: 100%; }
+  #galeria-blog .blog-post {
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    padding: 5%;
+    margin-bottom: 4%; }
+    #galeria-blog .blog-post .title {
+      color: #E8663C; }
+    #galeria-blog .blog-post .fecha {
+      color: #CCCCCC; }
+
+#titulo {
+  background-color: #F4B19F; }
+  #titulo .container {
+    background-color: #E8663C;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+    /*20px solid #fff*/ }
+  #titulo h2 {
+    font-family: Bebas;
+    color: white; }
+
+#info {
+  padding: 2%; }
+  #info .autor {
+    float: left;
+    padding: 3px;
+    margin: 2%;
+    border: 1px solid #CCCCCC; }
+  #info p {
+    text-align: justify; }
+  #info .naranja {
+    color: #E8663C;
+    border-left: 10px solid #E8663C;
+    padding-left: 5%;
+    margin: 2% 5%; }
+  #info ul > li {
+    text-decoration: none;
+    list-style: none; }
+  #info .photogallery > img {
+    display: inline-block;
+    width: 50px;
+    border: 1px solid #E8663C;
+    margin: 2%; }
+
+#titulo {
+  background-color: #F4B19F; }
+  #titulo .container {
+    background-color: #E8663C;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+    /*20px solid #fff*/ }
+  #titulo h2 {
+    font-family: Bebas;
+    color: white; }
+
+#entradas {
+  padding-top: 20px; }
+  #entradas .info-post {
+    margin-top: 2%; }
+  #entradas .post {
+    position: relative; }
+  #entradas .tipo-post {
+    position: absolute;
+    top: 20px;
+    left: -10%; }
+  #entradas .img-post {
+    width: 100%; }
+  #entradas .datos, #entradas h3, #entradas .post-title {
+    font-family: Bebas;
+    color: #E8663C; }
+  #entradas .desc {
+    font-family: HelveticaNeue; }
+  #entradas p {
+    text-align: justify; }
+  #entradas .quote {
+    background-color: #EDEDED;
+    padding: 5%; }
+  #entradas .quote, #entradas .enlace {
+    margin-left: 3%; }
+  #entradas .bg-gris {
+    background-image: url("../images/post_border_bg.png");
+    height: 15px;
+    margin: 2% 0; }
+  #entradas .sm-gray {
+    color: gray;
+    font-size: 12px; }
+  #entradas .paginas {
+    margin-bottom: 4%; }
+    #entradas .paginas div {
+      background-color: #E8663C;
+      font-family: Bebas;
+      margin: 0 2%;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+      text-align: center; }
+    #entradas .paginas a {
+      color: white;
+      text-decoration: none; }
+      #entradas .paginas a:hover {
+        color: #F4B19F; }
+
+.photogallery > img {
+  display: inline-block;
+  width: 50px;
+  border: 1px solid #E8663C;
+  margin: 2%; }
+
+.lateral {
+  margin-top: 2%; }
+
+#titulo {
+  background-color: #F4B19F; }
+  #titulo .container {
+    background-color: #E8663C;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+    /*20px solid #fff*/ }
+  #titulo h2 {
+    font-family: Bebas;
+    color: white; }
+
+.categorias {
+  font-family: Bebas; }
+  .categorias li {
+    text-decoration: none;
+    color: #CCCCCC;
+    display: inline-block;
+    padding: 2%; }
+    .categorias li a {
+      text-decoration: none;
+      color: #CCCCCC !important; }
+    .categorias li:hover {
+      background-color: #E8663C;
+      color: white !important;
+      padding: 1% 2%; }
+  .categorias span {
+    color: black; }
+
+#galeria img {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  padding: 1%; }
+#galeria .foto-desc {
+  font-family: Bebas;
+  border: 1px solid #CCCCCC;
+  padding: 2%;
+  margin-bottom: 20px; }
+  #galeria .foto-desc .title {
+    color: #CCCCCC; }
+  #galeria .foto-desc .fecha {
+    color: #E8663C; }
+
+#titulo {
+  background-color: #F4B19F; }
+  #titulo .container {
+    background-color: #E8663C;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+    /*20px solid #fff*/ }
+  #titulo h2 {
+    font-family: Bebas;
+    color: white; }
+
+#contacto {
+  margin-bottom: 2%; }
+  #contacto .mapa {
+    margin: 2% auto; }
+  #contacto .direccion {
+    color: #E8663C; }
+  #contacto textarea {
+    font-family: Bebas !important;
+    border-color: #E8663C !important;
+    color: #E8663C !important;
+    margin-bottom: 2% !important;
+    border-radius: 0 !important;
+    width: 80% !important; }
+  #contacto .message {
+    width: 100% !important; }
+
+.photogallery > img {
+  display: inline-block;
+  width: 50px;
+  border: 1px solid #E8663C;
+  margin: 2%; }
+
+@font-face {
+  font-family: "Bebas";
+  src: url("../font/bebas___-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../font/HelveticaNeue.ttf") format("truetype"); }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+#titulo{
+	@include barra (20px solid #fff,20px solid #fff);
+}
+#info{
+	padding: 2%;
+	.autor{
+		float: left;
+		padding: 3px;
+		margin: 2%;
+		border:1px solid $gris;
+	}
+	p{
+		text-align: justify;
+	}
+	.naranja{
+		color: $naranja;
+		border-left: 10px solid $naranja;
+		padding-left: 5%;
+		margin:2% 5%;
+	}
+	ul>li{
+		text-decoration: none;
+		list-style: none;
+	}
+	.photogallery>img{
+		display: inline-block;
+		width: 50px;
+		border:1px solid $naranja;
+		margin: 2%;
+	}
+}

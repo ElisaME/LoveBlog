@@ -1,0 +1,28 @@
+@import "../Helpers/variables";
+
+header{
+font-family: Bebas!important;
+	h1{
+		font-family: Bebas !important;
+		color: $naranja;
+		span{
+			color: $rosa;
+		}
+	}
+}
+.navbar-default{
+	background-color:#ffffff !important;
+	.navbar-nav{
+		padding-top: 20px;
+		li>a{
+		color: $gris !important;
+			&:hover{
+			color: $naranja !important;
+			}
+		}
+		.active>a{
+			color: $naranja !important;
+			background-color: transparent !important;
+		}
+	}
+}

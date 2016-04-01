@@ -1,0 +1,10 @@
+@import "../Helpers/_variables";
+
+#footer{
+	@include barra (20px solid #fff,20px solid #fff);
+	.container{padding-bottom: 2%;}
+	p{
+		family-font:HelveticaNeue;
+		color: $gris;
+	}
+}

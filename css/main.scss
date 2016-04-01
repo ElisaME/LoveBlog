@@ -1,0 +1,19 @@
+@import "Layout/_header";
+@import "Layout/footer";
+@import "Helpers/_variables";
+@import "Helpers/_responsive";
+@import "Helpers/_botones";
+@import "Pages/index";
+@import "Pages/about";
+@import "Pages/blog";
+@import "Pages/portfolio";
+@import "Pages/contact";
+
+@font-face {
+	font-family: "Bebas";
+    src:url("../font/bebas___-webfont.ttf") format("truetype");   
+}
+@font-face {
+	font-family: "HelveticaNeue";
+    src:url("../font/HelveticaNeue.ttf") format("truetype");   
+}

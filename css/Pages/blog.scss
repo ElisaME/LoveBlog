@@ -1,0 +1,76 @@
+#titulo{
+	@include barra (20px solid #fff,20px solid #fff);
+}
+#entradas{
+	padding-top: 20px;
+	.info-post{
+		margin-top: 2%;
+	}
+	.post{
+		position: relative;
+	}
+	.tipo-post{
+		position:absolute;
+		top:20px;
+		left: -10%;
+	}
+	.img-post{
+		width: 100%;
+	}
+	.datos, h3, .post-title{
+		font-family: Bebas;
+		color: $naranja;
+	}
+	.desc{
+		font-family: HelveticaNeue;
+
+	}
+	p{
+		text-align: justify;
+	}
+	.quote{
+		background-color: #EDEDED;
+		padding: 5%;
+	}
+	.quote,.enlace{
+		margin-left: 3%;
+	}
+	.bg-gris{
+		background-image: url("../images/post_border_bg.png");
+		height: 15px;
+		margin: 2% 0;
+	}
+	.sm-gray{
+		color: gray;
+		font-size: 12px;
+	}
+	.paginas {
+		margin-bottom: 4%;
+		div{
+		background-color: $naranja;
+		font-family: Bebas;
+		margin: 0 2%;
+		display: inline-block;
+		width: 40px;
+	    height: 40px;
+	    padding: 10px;
+	    text-align: center;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+			&:hover{
+				color:$rosa;
+			}
+		}
+	}
+}
+.photogallery>img{
+		display: inline-block;
+		width: 50px;
+		border:1px solid $naranja;
+		margin: 2%;
+	}
+.lateral{
+	margin-top: 2%;
+}

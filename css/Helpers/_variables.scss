@@ -1,0 +1,32 @@
+
+$naranja:#E8663C;
+$rosa:#F4B19F;
+$gris:#CCCCCC;
+
+@mixin barra ($borde-l, $borde-r){
+	background-color: $rosa;
+	.container{
+		background-color: $naranja;
+		border-left: $borde-l;
+		border-right: $borde-r;
+		/*20px solid #fff*/
+	}
+	h2{
+		font-family: Bebas;
+		color: white;
+	}
+}
+@mixin subtitulo {
+	margin: 2% 0;
+	.bg-separador{
+	background-image: url("../images/post_border_bg.png");
+	height: 30px;
+	margin:  2%;
+	}
+	span{
+		background-color: white;
+		font-family: Bebas;
+		color: $naranja;
+		padding: (2px 10px 13px 4px);
+	}
+}

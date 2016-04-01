@@ -1,0 +1,11 @@
+@import "variables";
+.btn-naranja{
+	background-color: $naranja;
+	font-family: Bebas;
+	padding: 2% 4%;
+	color: white;
+	border: none;
+	&:hover{
+		color:$rosa;
+	}
+}
